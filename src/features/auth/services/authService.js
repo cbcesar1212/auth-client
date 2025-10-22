@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // Usamos el proxy definido en vite.config.js
-const BASE_URL = '/api'; 
+const BASE_URL = "https://reflexoperu-v3.marketingmedico.vip/backend/public/api";
+
 
 const api = axios.create({
   baseURL: BASE_URL,
