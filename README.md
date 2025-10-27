@@ -1,23 +1,41 @@
 # auth-client
-
-Proyecto de autenticación con React + Vite.
+Cliente de autenticación con React + Vite.
 
 ## Descripción
-Este proyecto implementa un cliente de autenticación que permite:
-- Registrar usuarios
-- Iniciar sesión
-- Mostrar perfil de usuario autenticado
-- Cerrar sesión
+Aplicación frontend que permite la autenticación de usuarios con registro, inicio de sesión y visualización del perfil. Se conecta a un backend REST seguro usando JWT almacenado en cookies HttpOnly.
 
-El proyecto se conecta a un backend proporcionado y utiliza:
-- React 18
-- Axios
-- React Router DOM
-- Context API
-- Cookies para manejo seguro de JWT
-- Tailwind CSS
+## Características
+- Registro de usuarios
+- Login con validación
+- Contexto global de autenticación
+- Protección de rutas privadas
+- Cookies seguras para manejo de JWT
+- Tailwind CSS para estilos
+- Axios para consumo de API
+- Navegación con React Router DOM
 
-## Instalación
-1. Clonar el repositorio:
+## Tecnologías utilizadas
+- **React 18**
+- **Vite**
+- **Axios**
+- **React Router DOM**
+- **Context API**
+- **Tailwind CSS**
+
+## Requisitos previos
+- Node.js 18+
+- Backend operativo con rutas de autenticación
+
+## Instalación y ejecución
 ```bash
+# Clonar repositorio
 git clone https://github.com/cbcesar1212/auth-client.git
+
+# Entrar a la carpeta del proyecto
+cd auth-client
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en desarrollo
+npm run dev
