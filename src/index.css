@@ -134,3 +134,34 @@ body::before {
   font-weight: bold;
   text-align: center;
 }
+/* Modo Claro */
+body.light {
+  background: #f4f4f4 !important;
+  color: #222 !important;
+}
+
+body.light::before {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.light .card,
+.light .profile-card {
+  background: rgba(255, 255, 255, 0.85) !important;
+  color: #222 !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.light .card h2,
+.light .profile-card span,
+.light .card a {
+  color: #b91c1c !important;
+}
+
+.light .card input {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  color: #222 !important;
+}
+
+.light .card button {
+  background: linear-gradient(90deg, #2563eb, #16a34a) !important;
+}
